@@ -10,12 +10,12 @@ protected:
 
 public:
     Vehicle();
-    Vehicle(std::string manufacturer, int yearBuilt);
+    Vehicle(string manufacturer, int yearBuilt);
 
     string getManufacturer() const;
     int getYearBuilt() const;
 
-    void setManufacturer(const std::string &manufacturer);
+    void setManufacturer(const string &manufacturer);
     void setYearBuilt(int yearBuilt);
 
     void displayInfo() const;

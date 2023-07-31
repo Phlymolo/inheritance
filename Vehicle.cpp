@@ -3,9 +3,9 @@
 
 // Constructors
 Vehicle::Vehicle() : manufacturer(""), yearBuilt(0) {}
-Vehicle::Vehicle(std::string manufacturer, int yearBuilt) : manufacturer(manufacturer), yearBuilt(yearBuilt) {}
+Vehicle::Vehicle(string manufacturer, int yearBuilt) : manufacturer(manufacturer), yearBuilt(yearBuilt) {}
 
-std::string Vehicle::getManufacturer() const
+string Vehicle::getManufacturer() const
 {
     return manufacturer;
 }
@@ -27,5 +27,5 @@ void Vehicle::setYearBuilt(int yearBuilt)
 
 void Vehicle::displayInfo() const
 {
-    cout << "Manufacturer: " << manufacturer << "\nYear Built: " << yearBuilt << std::endl;
+    cout << "Manufacturer: " << manufacturer << "\nYear Built: " << yearBuilt << endl;
 }

@@ -5,7 +5,7 @@
 Car::Car() : Vehicle(), numberOfDoors(0) {}
 
 // Parameterized constructor
-Car::Car(std::string manufacturer, int yearBuilt, int numberOfDoors) : Vehicle(manufacturer, yearBuilt), numberOfDoors(numberOfDoors) {}
+Car::Car(string manufacturer, int yearBuilt, int numberOfDoors) : Vehicle(manufacturer, yearBuilt), numberOfDoors(numberOfDoors) {}
 
 int Car::getNumberOfDoors() const
 {
@@ -20,5 +20,5 @@ void Car::setNumberOfDoors(int numberOfDoors)
 void Car::displayInfo() const
 {
     Vehicle::displayInfo();
-    cout << "Number of Doors: " << numberOfDoors << std::endl;
+    cout << "Number of Doors: " << numberOfDoors << endl;
 }

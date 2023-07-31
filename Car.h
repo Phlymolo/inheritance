@@ -7,7 +7,7 @@ private:
 
 public:
     Car();
-    Car(std::string manufacturer, int yearBuilt, int numberOfDoors);
+    Car(string manufacturer, int yearBuilt, int numberOfDoors);
 
     int getNumberOfDoors() const;
 
