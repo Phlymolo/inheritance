@@ -16,6 +16,8 @@ int main()
     int numberOfDoors;
     int towingCapacity;
 
+    cout << "Vehicle Program\n\n";
+
     // Vehicle
     cout << "Vehicle:\nEnter manufacturer: ";
     getline(cin, manufacturer);
